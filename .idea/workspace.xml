@@ -1,7 +1,158 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="086fa1a6-079b-4f00-b7dd-14400bb2fe01" name="Default" comment="" />
+    <list default="true" id="086fa1a6-079b-4f00-b7dd-14400bb2fe01" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/opencv_401.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/orz/reinvent/wheel/config/SpringSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/orz/reinvent/wheel/controller/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/orz/reinvent/wheel/controller/PicController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/orz/reinvent/wheel/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/orz/reinvent/wheel/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/orz/reinvent/wheel/dao/PicDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/orz/reinvent/wheel/dao/SvmModelDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/orz/reinvent/wheel/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/orz/reinvent/wheel/entity/PicEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/orz/reinvent/wheel/entity/RoleEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/orz/reinvent/wheel/entity/SvmModelEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/orz/reinvent/wheel/entity/UserEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/orz/reinvent/wheel/service/LoginService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/orz/reinvent/wheel/service/MyUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/orz/reinvent/wheel/service/PicService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/orz/reinvent/wheel/service/SvmModelService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/orz/reinvent/wheel/utility/Svm_Hog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/css/layui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/css/layui.mobile.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/css/modules/code.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/css/modules/laydate/default/laydate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/css/modules/layer/default/icon-ext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/css/modules/layer/default/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/css/modules/layer/default/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/css/modules/layer/default/loading-0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/css/modules/layer/default/loading-1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/css/modules/layer/default/loading-2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/font/iconfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/font/iconfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/font/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/font/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/font/iconfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/10.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/11.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/12.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/13.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/14.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/15.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/17.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/18.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/19.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/20.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/21.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/22.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/23.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/25.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/26.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/27.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/28.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/29.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/30.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/31.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/32.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/33.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/34.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/35.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/36.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/37.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/38.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/39.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/4.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/40.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/41.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/42.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/43.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/44.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/45.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/46.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/47.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/48.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/49.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/5.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/50.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/51.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/52.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/53.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/54.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/55.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/56.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/57.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/58.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/59.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/6.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/60.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/61.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/62.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/63.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/64.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/65.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/66.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/67.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/68.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/69.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/7.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/70.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/71.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/8.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/images/face/9.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/lay/modules/carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/lay/modules/code.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/lay/modules/colorpicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/lay/modules/element.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/lay/modules/flow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/lay/modules/form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/lay/modules/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/lay/modules/laydate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/lay/modules/layedit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/lay/modules/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/lay/modules/laypage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/lay/modules/laytpl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/lay/modules/mobile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/lay/modules/rate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/lay/modules/slider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/lay/modules/table.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/lay/modules/transfer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/lay/modules/tree.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/lay/modules/upload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/lay/modules/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/layui.all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/layui/layui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/loadpic.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/model.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/orz/reinvent/wheel/opencv_test/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/orz/reinvent/wheel/opencv_test/Svm_train.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Gradle___orz_reinvent___wheel_0_0_1_SNAPSHOT_war__exploded_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/Gradle___orz_reinvent___wheel_0_0_1_SNAPSHOT_war__exploded_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__mysql_mysql_connector_java_8_0_15.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__mysql_mysql_connector_java_8_0_15.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_jcl_5_1_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_jcl_5_1_5_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/wheel_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/wheel_main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/wheel_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/wheel_test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/sql/baseSQL.sql" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/sql/baseSQL.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/orz/reinvent/wheel/WheelApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/orz/reinvent/wheel/WheelApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/orz/reinvent/wheel/entity/T_UserEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/orz/reinvent/wheel/entity/T_UserEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/sql/baseSQL.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/sql/baseSQL.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/orz/reinvent/wheel/WheelApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/orz/reinvent/wheel/WheelApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wheel.iml" beforeDir="false" afterPath="$PROJECT_DIR$/wheel.iml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -14,6 +165,9 @@
   </component>
   <component name="CodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/wheel$WheelApplication.ic" NAME="WheelApplication Coverage Results" MODIFIED="1555585926541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -56,11 +210,74 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="WheelApplication.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/orz/reinvent/wheel/WheelApplication.java">
+      <file leaf-file-name="T_UserDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/orz/reinvent/wheel/dao/T_UserDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="223">
+              <caret line="61" column="86" lean-forward="true" selection-start-line="61" selection-start-column="4" selection-end-line="61" selection-end-column="86" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Svm_Hog.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/orz/reinvent/wheel/utility/Svm_Hog.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="235">
+              <caret line="123" column="33" lean-forward="true" selection-start-line="123" selection-start-column="33" selection-end-line="123" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Svm_train.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/orz/reinvent/wheel/opencv_test/Svm_train.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="39">
+              <caret line="140" column="23" lean-forward="true" selection-start-line="140" selection-start-column="23" selection-end-line="140" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PicController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/orz/reinvent/wheel/controller/PicController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="479">
+              <caret line="168" column="32" lean-forward="true" selection-start-line="168" selection-start-column="32" selection-end-line="168" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SvmModelService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/orz/reinvent/wheel/service/SvmModelService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="64" column="46" selection-start-line="64" selection-start-column="46" selection-end-line="64" selection-end-column="46" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SvmModelDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/orz/reinvent/wheel/dao/SvmModelDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="26" column="31" lean-forward="true" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="model.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/model.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="60" column="32" selection-start-line="60" selection-start-column="32" selection-end-line="60" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -70,9 +287,15 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JUnit4 Test Class" />
+        <option value="Interface" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
@@ -277,9 +500,9 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="4654629834654" />
+        <entry key="$PROJECT_DIR$" value="4664715595165" />
         <entry key="$PROJECT_DIR$/.gradle" value="0" />
-        <entry key="$PROJECT_DIR$/build.gradle" value="3821581626" />
+        <entry key="$PROJECT_DIR$/build.gradle" value="3225011062" />
         <entry key="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" value="408007245" />
         <entry key="$PROJECT_DIR$/settings.gradle" value="1861618443" />
       </map>
@@ -480,19 +703,47 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/orz/reinvent/wheel/WheelApplication.java" />
         <option value="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" />
-        <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/src/test/java/orz/reinvent/wheel/WheelApplicationTests.java" />
         <option value="$PROJECT_DIR$/src/main/java/orz/reinvent/wheel/dao/T_UserDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/orz/reinvent/wheel/entity/T_UserEntity.java" />
         <option value="$PROJECT_DIR$/src/main/java/orz/reinvent/wheel/algorithm/cas_test.java" />
         <option value="$PROJECT_DIR$/src/main/java/orz/reinvent/wheel/algorithm/sanliuling/youlechang/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/orz/reinvent/wheel/algorithm/jianzhi_offer/class1/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/orz/reinvent/wheel/algorithm/tengxun_tiqianpi/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/orz/reinvent/wheel/algorithm/toutiao/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/orz/reinvent/wheel/algorithm/toutiao/qian.java" />
+        <option value="$PROJECT_DIR$/src/main/java/orz/reinvent/wheel/entity/T_UserEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/orz/reinvent/wheel/entity/RoleEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/orz/reinvent/wheel/service/LoginService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/orz/reinvent/wheel/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/src/test/java/orz/reinvent/wheel/service/MyUserServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/orz/reinvent/wheel/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/orz/reinvent/wheel/service/MyUserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/orz/reinvent/wheel/entity/UserEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/register.html" />
+        <option value="$PROJECT_DIR$/src/main/java/orz/reinvent/wheel/controller/LoginController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/login.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/test/java/orz/reinvent/wheel/WheelApplicationTests.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/home.html" />
+        <option value="$PROJECT_DIR$/src/main/java/orz/reinvent/wheel/utility/svm.java" />
+        <option value="$PROJECT_DIR$/src/main/java/orz/reinvent/wheel/controller/TestController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/loadpic.html" />
+        <option value="$PROJECT_DIR$/src/main/java/orz/reinvent/wheel/entity/PicEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/orz/reinvent/wheel/dao/PicDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/orz/reinvent/wheel/service/PicService.java" />
+        <option value="$PROJECT_DIR$/src/test/java/orz/reinvent/wheel/opencv_test/Svm_train.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/.idea/modules/wheel_main.iml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/opencv.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/orz/reinvent/wheel/opencv_test/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/orz/reinvent/wheel/entity/SvmModelEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/orz/reinvent/wheel/WheelApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/java/orz/reinvent/wheel/config/SpringSecurityConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/model.html" />
+        <option value="$PROJECT_DIR$/src/main/java/orz/reinvent/wheel/dao/SvmModelDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/orz/reinvent/wheel/utility/Svm_Hog.java" />
+        <option value="$PROJECT_DIR$/src/main/java/orz/reinvent/wheel/service/SvmModelService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/orz/reinvent/wheel/controller/PicController.java" />
       </list>
     </option>
   </component>
@@ -519,10 +770,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="379" />
-    <option name="y" value="25" />
-    <option name="width" value="1371" />
-    <option name="height" value="1044" />
+    <option name="x" value="-7" />
+    <option name="y" value="-1080" />
+    <option name="width" value="974" />
+    <option name="height" value="1087" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -570,6 +821,24 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="wheel" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wheel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wheel" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="wheel" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wheel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wheel" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="wheel" type="462c0819:PsiDirectoryNode" />
               <item name="dao" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -586,7 +855,41 @@
               <item name="wheel" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="wheel" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wheel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wheel" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="wheel" type="462c0819:PsiDirectoryNode" />
+              <item name="utility" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wheel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wheel" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wheel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wheel" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="sql" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wheel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wheel" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="wheel" type="b2602c69:ProjectViewProjectNode" />
@@ -609,25 +912,60 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="wheel" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="wheel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wheel" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="wheel" type="462c0819:PsiDirectoryNode" />
+              <item name="opencv_test" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="15" />
+    <property name="RequestMappingsPanelWidth1" value="15" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/build.gradle" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="last_opened_file_path" value="C:/OpenCV/opencv/build/java/opencv-401.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.30804598" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="orz.reinvent.wheel.service" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\IdeaWorkspace\wheel\wheel\src\main\resources\static" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\IdeaWorkspace\wheel\wheel\libs" />
+      <recent name="C:\IdeaWorkspace\wheel\wheel\src\main\resources\templates" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -641,64 +979,33 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.qian">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="orz.reinvent.wheel.algorithm.jianzhi_offer.class1.Main" />
-      <module name="wheel_main" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="orz.reinvent.wheel.algorithm.jianzhi_offer.class1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="orz.reinvent.wheel.algorithm.tengxun_tiqianpi.Main" />
-      <module name="wheel_main" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="orz.reinvent.wheel.algorithm.tengxun_tiqianpi.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
+  <component name="RunManager" selected="Spring Boot.WheelApplication">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="orz.reinvent.wheel.algorithm.sanliuling.youlechang.Main" />
-      <module name="wheel_main" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="MAIN_CLASS_NAME" value="orz.reinvent.wheel.opencv_test.Main" />
+      <module name="wheel_test" />
+      <option name="VM_PARAMETERS" value="-Djava.library.path=C:/OpenCV/opencv/build/java/x64" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="orz.reinvent.wheel.algorithm.sanliuling.youlechang.*" />
+          <option name="PATTERN" value="orz.reinvent.wheel.opencv_test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Svm_train" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="orz.reinvent.wheel.opencv_test.Svm_train" />
+      <module name="wheel_test" />
+      <option name="VM_PARAMETERS" value="-Djava.library.path=C:/OpenCV/opencv/build/java/x64" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="orz.reinvent.wheel.opencv_test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="cas_test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="orz.reinvent.wheel.algorithm.cas_test" />
-      <module name="wheel_main" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="orz.reinvent.wheel.algorithm.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="qian" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="orz.reinvent.wheel.algorithm.toutiao.qian" />
-      <module name="wheel_main" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="orz.reinvent.wheel.algorithm.toutiao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -719,6 +1026,7 @@
     <configuration name="WheelApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="wheel_main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="orz.reinvent.wheel.WheelApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -744,19 +1052,13 @@
     </configuration>
     <list>
       <item itemvalue="Spring Boot.WheelApplication" />
-      <item itemvalue="Application.cas_test" />
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.Main (1)" />
-      <item itemvalue="Application.Main (2)" />
-      <item itemvalue="Application.qian" />
+      <item itemvalue="Application.Svm_train" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.qian" />
-        <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Svm_train" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.cas_test" />
       </list>
     </recent_temporary>
   </component>
@@ -785,28 +1087,29 @@
       <workItem from="1552700277850" duration="7548000" />
       <workItem from="1553952535089" duration="21000" />
       <workItem from="1553952606323" duration="1840000" />
+      <workItem from="1554007816552" duration="7489000" />
+      <workItem from="1554079454810" duration="984000" />
+      <workItem from="1554189705920" duration="4941000" />
+      <workItem from="1554707445223" duration="14568000" />
+      <workItem from="1554882647028" duration="24600000" />
+      <workItem from="1555153051221" duration="18360000" />
+      <workItem from="1555488187680" duration="26008000" />
+      <workItem from="1555665289027" duration="8704000" />
+      <workItem from="1555819514651" duration="3859000" />
+      <workItem from="1555831723460" duration="16418000" />
+      <workItem from="1555952067335" duration="8733000" />
+      <workItem from="1556372594324" duration="12093000" />
+      <workItem from="1556782123739" duration="595000" />
+      <workItem from="1561536254505" duration="7317000" />
+      <workItem from="1561597673342" duration="34073000" />
+      <workItem from="1561696988805" duration="1705000" />
+      <workItem from="1561698901464" duration="3088000" />
+      <workItem from="1561702037264" duration="5229000" />
+      <workItem from="1561707624021" duration="24449000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="WheelApplicationTests_test - 2019.03.06 at 15h 01m 22s.xml">
-      <configuration name="WheelApplicationTests.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WheelApplicationTests_test - 2019.03.06 at 15h 06m 42s.xml">
-      <configuration name="WheelApplicationTests.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WheelApplicationTests_test - 2019.03.06 at 15h 07m 42s.xml">
-      <configuration name="WheelApplicationTests.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WheelApplicationTests_test - 2019.03.06 at 15h 10m 11s.xml">
-      <configuration name="WheelApplicationTests.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WheelApplicationTests_test - 2019.03.06 at 15h 10m 58s.xml">
-      <configuration name="WheelApplicationTests.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WheelApplicationTests_test - 2019.03.06 at 15h 12m 44s.xml">
-      <configuration name="WheelApplicationTests.test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="WheelApplicationTests_test1 - 2019.03.06 at 15h 15m 34s.xml">
       <configuration name="WheelApplicationTests.test1" configurationId="JUnit" />
     </history-entry>
@@ -819,9 +1122,27 @@
     <history-entry file="WheelApplicationTests_test2 - 2019.03.06 at 15h 21m 44s.xml">
       <configuration name="WheelApplicationTests.test2" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="MyUserServiceTest_loadUserByUsername - 2019.04.17 at 15h 45m 13s.xml">
+      <configuration name="MyUserServiceTest.loadUserByUsername" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyUserServiceTest_loadUserByUsername - 2019.04.17 at 15h 46m 25s.xml">
+      <configuration name="MyUserServiceTest.loadUserByUsername" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyUserServiceTest_loadUserByUsername - 2019.04.17 at 15h 47m 09s.xml">
+      <configuration name="MyUserServiceTest.loadUserByUsername" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WheelApplicationTests_testMyUserService - 2019.04.17 at 15h 49m 08s.xml">
+      <configuration name="WheelApplicationTests.testMyUserService" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WheelApplicationTests_testMyUserService - 2019.04.17 at 16h 18m 42s.xml">
+      <configuration name="WheelApplicationTests.testMyUserService" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WheelApplicationTests_testMyUserService - 2019.04.17 at 16h 20m 08s.xml">
+      <configuration name="WheelApplicationTests.testMyUserService" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71513000" />
+    <option name="totallyTimeSpent" value="294726000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -833,45 +1154,83 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="253" y="17" width="914" height="696" extended-state="0" />
-    <editor active="true" />
+    <frame x="-7" y="-1080" width="974" height="1087" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50095785" side_tool="true" weight="0.32982457" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5028463" side_tool="true" weight="0.46947083" />
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.32959446" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info anchor="right" id="Database" order="3" weight="0.32959446" />
       <window_info id="Structure" order="1" sideWeight="0.5026178" side_tool="true" weight="0.25478926" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.24935289" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24878837" />
       <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32982457" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.6090147" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49810246" weight="0.32914045" />
+      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.49810246" weight="0.32285115" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
-      <window_info anchor="bottom" id="Java Enterprise" order="8" weight="0.32982457" />
+      <window_info anchor="bottom" id="Java Enterprise" order="8" sideWeight="0.49905124" weight="0.32914045" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.15724382" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Spring" order="8" weight="0.3263158" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32982457" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4973822" visible="true" weight="0.32476637" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49905124" weight="0.32914045" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4971537" weight="0.524109" />
+      <window_info anchor="bottom" id="Spring" order="8" weight="0.3249476" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49905124" weight="0.32914045" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4973822" visible="true" weight="0.26258206" />
       <window_info anchor="right" id="Bean Validation" order="4" weight="0.32959446" />
       <window_info id="Web" order="2" side_tool="true" />
-      <window_info anchor="right" id="Gradle" order="3" weight="0.32959446" />
+      <window_info anchor="right" id="Gradle" order="3" weight="0.3287234" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" sideWeight="0.5026178" side_tool="true" weight="0.25478926" />
-      <window_info anchor="bottom" id="Dependency Viewer" order="8" weight="0.32982457" />
+      <window_info anchor="bottom" id="Dependency Viewer" order="8" weight="0.32971507" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.32685512" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info active="true" anchor="bottom" id="Build" order="7" sideWeight="0.49904215" visible="true" weight="0.32982457" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.49810246" weight="0.32914045" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32914045" />
+      <window_info anchor="right" id="Coverage" order="4" side_tool="true" weight="0.32978722" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.49810246" weight="0.32914045" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4971537" weight="0.524109" />
+      <window_info anchor="bottom" id="Spring" order="12" weight="0.3249476" />
+      <window_info id="Image Layers" order="3" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24878837" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" sideWeight="0.5026178" side_tool="true" weight="0.25478926" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5028463" side_tool="true" weight="0.46947083" />
+      <window_info anchor="bottom" id="Messages" order="13" sideWeight="0.49810246" weight="0.32285115" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49810246" weight="0.32914045" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32914045" />
+      <window_info anchor="bottom" id="Java Enterprise" order="14" sideWeight="0.49905124" weight="0.32914045" />
+      <window_info anchor="bottom" id="Dependency Viewer" order="15" weight="0.32971507" />
+      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.49905124" weight="0.32914045" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.32959446" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49905124" weight="0.32914045" />
+      <window_info anchor="right" id="Gradle" order="6" weight="0.3287234" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4973822" visible="true" weight="0.17204301" />
+      <window_info anchor="right" id="Database" order="7" weight="0.32959446" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info id="Structure" order="1" sideWeight="0.5026178" side_tool="true" weight="0.25478926" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Coverage" order="10" side_tool="true" weight="0.32978722" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.6090147" />
+      <window_info anchor="right" id="Bean Validation" order="11" weight="0.32959446" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -881,7 +1240,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="4" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -889,300 +1248,375 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/build.gradle">
+    <entry file="jar://C:/Gradle/gradle-4.4-all/download/caches/modules-2/files-2.1/org.springframework/spring-web/5.1.5.RELEASE/46673f1424ad8dc3a9fc39a96730e1ee2663fc18/spring-web-5.1.5.RELEASE-sources.jar!/org/springframework/web/context/request/AbstractRequestAttributes.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+        <state relative-caret-position="140">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/orz/reinvent/wheel/WheelApplication.java">
+    <entry file="jar://C:/Gradle/gradle-4.4-all/download/caches/modules-2/files-2.1/org.springframework/spring-webmvc/5.1.5.RELEASE/b2338b40c93e2f46df679a1a5a1ddca913dd111f/spring-webmvc-5.1.5.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        <state relative-caret-position="106">
+          <caret line="902" selection-start-line="902" selection-end-line="902" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Gradle/gradle-4.4-all/download/caches/modules-2/files-2.1/org.springframework/spring-web/5.1.5.RELEASE/46673f1424ad8dc3a9fc39a96730e1ee2663fc18/spring-web-5.1.5.RELEASE-sources.jar!/org/springframework/web/util/NestedServletException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="71" selection-start-line="71" selection-end-line="71" />
+          <folding>
+            <element signature="e#2605#2606#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Gradle/gradle-4.4-all/download/caches/modules-2/files-2.1/org.springframework/spring-webmvc/5.1.5.RELEASE/b2338b40c93e2f46df679a1a5a1ddca913dd111f/spring-webmvc-5.1.5.RELEASE-sources.jar!/org/springframework/web/servlet/HandlerExecutionChain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="86" selection-start-line="86" selection-end-line="86" />
+          <folding>
+            <element signature="e#2687#2688#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Gradle/gradle-4.4-all/download/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-core/9.0.16/8ac536534b3bca3fad92f85b44a585a365a90e5c/tomcat-embed-core-9.0.16-sources.jar!/org/apache/catalina/connector/Request.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="1476" selection-start-line="1476" selection-end-line="1476" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Gradle/gradle-4.4-all/download/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-core/9.0.16/8ac536534b3bca3fad92f85b44a585a365a90e5c/tomcat-embed-core-9.0.16-sources.jar!/org/apache/catalina/connector/RequestFacade.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="552" selection-start-line="552" selection-end-line="552" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Gradle/gradle-4.4-all/download/caches/modules-2/files-2.1/org.springframework/spring-web/5.1.5.RELEASE/46673f1424ad8dc3a9fc39a96730e1ee2663fc18/spring-web-5.1.5.RELEASE-sources.jar!/org/springframework/web/context/request/async/WebAsyncUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Gradle/gradle-4.4-all/download/caches/modules-2/files-2.1/org.springframework/spring-webmvc/5.1.5.RELEASE/b2338b40c93e2f46df679a1a5a1ddca913dd111f/spring-webmvc-5.1.5.RELEASE-sources.jar!/org/springframework/web/servlet/DispatcherServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="944" selection-start-line="944" selection-end-line="944" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Gradle/gradle-4.4-all/download/caches/modules-2/files-2.1/org.springframework/spring-webmvc/5.1.5.RELEASE/b2338b40c93e2f46df679a1a5a1ddca913dd111f/spring-webmvc-5.1.5.RELEASE-sources.jar!/org/springframework/web/servlet/FrameworkServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="1007" selection-start-line="1007" selection-end-line="1007" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Gradle/gradle-4.4-all/download/caches/modules-2/files-2.1/org.springframework.security/spring-security-web/5.1.4.RELEASE/6ae7ec82249ca3b7b64f204f925a7e01971a4cca/spring-security-web-5.1.4.RELEASE-sources.jar!/org/springframework/security/web/access/intercept/FilterSecurityInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="129" selection-start-line="129" selection-end-line="129" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Gradle/gradle-4.4-all/download/caches/modules-2/files-2.1/org.springframework.security/spring-security-web/5.1.4.RELEASE/6ae7ec82249ca3b7b64f204f925a7e01971a4cca/spring-security-web-5.1.4.RELEASE-sources.jar!/org/springframework/security/web/util/ThrowableAnalyzer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="223" selection-start-line="223" selection-end-line="223" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Gradle/gradle-4.4-all/download/caches/modules-2/files-2.1/org.springframework.security/spring-security-web/5.1.4.RELEASE/6ae7ec82249ca3b7b64f204f925a7e01971a4cca/spring-security-web-5.1.4.RELEASE-sources.jar!/org/springframework/security/web/access/ExceptionTranslationFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="132" selection-start-line="132" selection-end-line="132" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Gradle/gradle-4.4-all/download/caches/modules-2/files-2.1/org.springframework.security/spring-security-web/5.1.4.RELEASE/6ae7ec82249ca3b7b64f204f925a7e01971a4cca/spring-security-web-5.1.4.RELEASE-sources.jar!/org/springframework/security/web/header/HeaderWriterFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="76" selection-start-line="76" selection-end-line="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Gradle/gradle-4.4-all/download/caches/modules-2/files-2.1/org.springframework.security/spring-security-web/5.1.4.RELEASE/6ae7ec82249ca3b7b64f204f925a7e01971a4cca/spring-security-web-5.1.4.RELEASE-sources.jar!/org/springframework/security/web/context/SecurityContextPersistenceFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="109" selection-start-line="109" selection-end-line="109" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Gradle/gradle-4.4-all/download/caches/modules-2/files-2.1/org.springframework.security/spring-security-web/5.1.4.RELEASE/6ae7ec82249ca3b7b64f204f925a7e01971a4cca/spring-security-web-5.1.4.RELEASE-sources.jar!/org/springframework/security/web/FilterChainProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="180" selection-start-line="180" selection-end-line="180" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Gradle/gradle-4.4-all/download/caches/modules-2/files-2.1/org.springframework/spring-web/5.1.5.RELEASE/46673f1424ad8dc3a9fc39a96730e1ee2663fc18/spring-web-5.1.5.RELEASE-sources.jar!/org/springframework/web/filter/RequestContextFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="101" selection-start-line="101" selection-end-line="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Gradle/gradle-4.4-all/download/caches/modules-2/files-2.1/org.springframework/spring-web/5.1.5.RELEASE/46673f1424ad8dc3a9fc39a96730e1ee2663fc18/spring-web-5.1.5.RELEASE-sources.jar!/org/springframework/web/filter/OncePerRequestFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="110" selection-start-line="110" selection-end-line="110" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Gradle/gradle-4.4-all/download/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-core/9.0.16/8ac536534b3bca3fad92f85b44a585a365a90e5c/tomcat-embed-core-9.0.16-sources.jar!/org/apache/catalina/core/ApplicationFilterChain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="195" selection-start-line="195" selection-end-line="195" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Gradle/gradle-4.4-all/download/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-core/9.0.16/8ac536534b3bca3fad92f85b44a585a365a90e5c/tomcat-embed-core-9.0.16-sources.jar!/org/apache/catalina/core/StandardWrapperValve.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="239" selection-start-line="239" selection-end-line="239" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Gradle/gradle-4.4-all/download/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-core/9.0.16/8ac536534b3bca3fad92f85b44a585a365a90e5c/tomcat-embed-core-9.0.16-sources.jar!/org/apache/catalina/core/StandardContextValve.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="96" selection-start-line="96" selection-end-line="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Gradle/gradle-4.4-all/download/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-core/9.0.16/8ac536534b3bca3fad92f85b44a585a365a90e5c/tomcat-embed-core-9.0.16-sources.jar!/org/apache/catalina/authenticator/AuthenticatorBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="490" selection-start-line="490" selection-end-line="490" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Gradle/gradle-4.4-all/download/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-core/9.0.16/8ac536534b3bca3fad92f85b44a585a365a90e5c/tomcat-embed-core-9.0.16-sources.jar!/org/apache/catalina/core/StandardHostValve.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="149" selection-start-line="149" selection-end-line="149" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Gradle/gradle-4.4-all/download/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-core/9.0.16/8ac536534b3bca3fad92f85b44a585a365a90e5c/tomcat-embed-core-9.0.16-sources.jar!/org/apache/catalina/valves/ErrorReportValve.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="93" selection-start-line="93" selection-end-line="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Gradle/gradle-4.4-all/download/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-core/9.0.16/8ac536534b3bca3fad92f85b44a585a365a90e5c/tomcat-embed-core-9.0.16-sources.jar!/org/apache/catalina/core/StandardEngineValve.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="74" selection-start-line="74" selection-end-line="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Gradle/gradle-4.4-all/download/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-core/9.0.16/8ac536534b3bca3fad92f85b44a585a365a90e5c/tomcat-embed-core-9.0.16-sources.jar!/org/apache/catalina/connector/CoyoteAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="345" selection-start-line="345" selection-end-line="345" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Gradle/gradle-4.4-all/download/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-core/9.0.16/8ac536534b3bca3fad92f85b44a585a365a90e5c/tomcat-embed-core-9.0.16-sources.jar!/org/apache/coyote/http11/Http11Processor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="413" selection-start-line="413" selection-end-line="413" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Gradle/gradle-4.4-all/download/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-core/9.0.16/8ac536534b3bca3fad92f85b44a585a365a90e5c/tomcat-embed-core-9.0.16-sources.jar!/org/apache/coyote/AbstractProcessorLight.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="65" selection-start-line="65" selection-end-line="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Gradle/gradle-4.4-all/download/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-core/9.0.16/8ac536534b3bca3fad92f85b44a585a365a90e5c/tomcat-embed-core-9.0.16-sources.jar!/org/apache/coyote/AbstractProtocol.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="833" selection-start-line="833" selection-end-line="833" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Gradle/gradle-4.4-all/download/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-core/9.0.16/8ac536534b3bca3fad92f85b44a585a365a90e5c/tomcat-embed-core-9.0.16-sources.jar!/org/apache/tomcat/util/net/NioEndpoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="1414" selection-start-line="1414" selection-end-line="1414" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Gradle/gradle-4.4-all/download/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-core/9.0.16/8ac536534b3bca3fad92f85b44a585a365a90e5c/tomcat-embed-core-9.0.16-sources.jar!/org/apache/tomcat/util/net/SocketProcessorBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="18" lean-forward="true" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/orz/reinvent/wheel/service/PicService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="51" column="25" lean-forward="true" selection-start-line="51" selection-start-column="25" selection-end-line="51" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/orz/reinvent/wheel/service/MyUserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/orz/reinvent/wheel/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/orz/reinvent/wheel/service/LoginService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+        <state relative-caret-position="170">
+          <caret line="46" column="7" lean-forward="true" selection-start-line="46" selection-start-column="7" selection-end-line="46" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
+    <entry file="file://$PROJECT_DIR$/src/main/java/orz/reinvent/wheel/config/SpringSecurityConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="25" lean-forward="true" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+        <state relative-caret-position="204">
+          <caret line="47" column="38" selection-start-line="47" selection-start-column="38" selection-end-line="47" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+    <entry file="file://$PROJECT_DIR$/src/main/java/orz/reinvent/wheel/controller/LoginController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+        <state relative-caret-position="255">
+          <caret line="75" column="29" lean-forward="true" selection-start-line="75" selection-start-column="29" selection-end-line="75" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/orz/reinvent/wheel/WheelApplication.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/orz/reinvent/wheel/WheelApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/gradle.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="25" lean-forward="true" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/orz/reinvent/wheel/WheelApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/gradle.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="15" lean-forward="true" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="41" lean-forward="true" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="19" lean-forward="true" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/orz/reinvent/wheel/WheelApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wheel.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gradlew.bat">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1311" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gradlew">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/gradle.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="17" selection-start-column="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gradle/vcs-1/gc.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/sql/baseSQL.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Gradle/gradle-4.4-all/download/caches/modules-2/files-2.1/org.springframework/spring-context/5.1.5.RELEASE/9f42597b821f59087bf759695992c5ea8a1fcf0d/spring-context-5.1.5.RELEASE-sources.jar!/org/springframework/stereotype/Repository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="61" column="18" selection-start-line="61" selection-start-column="18" selection-end-line="61" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Gradle/gradle-4.4-all/download/caches/modules-2/files-2.1/org.springframework.data/spring-data-commons/2.1.5.RELEASE/8e8ee6b7fbc90aed51973b38c27463739daa6200/spring-data-commons-2.1.5.RELEASE-sources.jar!/org/springframework/data/domain/Sort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="71" column="27" lean-forward="true" selection-start-line="71" selection-start-column="27" selection-end-line="71" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/orz/reinvent/wheel/entity/T_UserEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/orz/reinvent/wheel/WheelApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="44" column="43" selection-start-line="44" selection-start-column="43" selection-end-line="44" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/orz/reinvent/wheel/dao/T_UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1440">
-          <caret line="90" column="44" selection-start-line="90" selection-start-column="44" selection-end-line="90" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/orz/reinvent/wheel/algorithm/sanliuling_2.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/orz/reinvent/wheel/algorithm/toutiao/qian.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/orz/reinvent/wheel/algorithm/jianzhi_offer/class1/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="39" column="10" lean-forward="true" selection-start-line="39" selection-start-column="10" selection-end-line="39" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/orz/reinvent/wheel/algorithm/sanliuling/youlechang/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/orz/reinvent/wheel/algorithm/tengxun_tiqianpi/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/orz/reinvent/wheel/algorithm/toutiao/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/orz/reinvent/wheel/algorithm/cas_test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-181">
-          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        <state relative-caret-position="289">
+          <caret line="144" column="51" lean-forward="true" selection-start-line="144" selection-start-column="51" selection-end-line="144" selection-end-column="51" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/orz/reinvent/wheel/WheelApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/model.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="60" column="32" selection-start-line="60" selection-start-column="32" selection-end-line="60" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/orz/reinvent/wheel/controller/TestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/loadpic.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="20" column="74" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/orz/reinvent/wheel/dao/T_UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="61" column="86" lean-forward="true" selection-start-line="61" selection-start-column="4" selection-end-line="61" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/orz/reinvent/wheel/entity/SvmModelEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/orz/reinvent/wheel/dao/SvmModelDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="26" column="31" lean-forward="true" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/OpenCV/opencv/build/java/opencv-401.jar!/org/opencv/imgproc/Imgproc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="2304" column="5" lean-forward="true" selection-start-line="2304" selection-start-column="5" selection-end-line="2304" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/orz/reinvent/wheel/opencv_test/Svm_train.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="39">
+          <caret line="140" column="23" lean-forward="true" selection-start-line="140" selection-start-column="23" selection-end-line="140" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/orz/reinvent/wheel/utility/Svm_Hog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="123" column="33" lean-forward="true" selection-start-line="123" selection-start-column="33" selection-end-line="123" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/orz/reinvent/wheel/service/SvmModelService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="64" column="46" selection-start-line="64" selection-start-column="46" selection-end-line="64" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/orz/reinvent/wheel/controller/PicController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="479">
+          <caret line="168" column="32" lean-forward="true" selection-start-line="168" selection-start-column="32" selection-end-line="168" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1196,7 +1630,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.30804598" />
                 <option value="0.5" />
               </list>
             </option>
@@ -1205,11 +1639,11 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Spring</last-edited>
+          <last-edited>Web Gradle : wheel-0.0.1-SNAPSHOT.war (wheel_main)|Web</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.30804598" />
               </list>
             </option>
           </splitter-proportions>
@@ -1220,7 +1654,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.30804598" />
               </list>
             </option>
           </splitter-proportions>
@@ -1232,7 +1666,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.30804598" />
               </list>
             </option>
           </splitter-proportions>
@@ -1240,11 +1674,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>wheel</last-edited>
+          <last-edited>wheel_test|wheel</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.30804598" />
               </list>
             </option>
           </splitter-proportions>
@@ -1264,11 +1698,11 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Gradle: antlr:antlr:2.7.7</last-edited>
+          <last-edited>opencv-401</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.30804598" />
               </list>
             </option>
           </splitter-proportions>

@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity5">
+<html lang="en">
+<head>
+    <title>Title</title>
+    <!--不写这个会报错，写了这个先试试-->
+    <meta http-equiv="Content-Type" content="multipart/form-data; charset=utf-8" />
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <!--<script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>-->
+</head>
+<body>
+<div class="container">
+
+    <div class="starter-template">
+        <!--
+        <h1 th:text="${msg.title}"></h1>
+
+        <p class="bg-primary" th:text="${msg.content}"></p>
+
+        <div sec:authorize="hasRole('ROLE_ADMIN')">
+        -->
+            <!-- 用户类型为ROLE_ADMIN 显示 -->
+        <!--
+            <p class="bg-info" th:text="${msg.etraInfo}"></p>
+        </div>
+        -->
+
+        <div sec:authorize="hasRole('ROLE_USER')"> <!-- 用户类型为 ROLE_USER 显示 -->
+            <p class="bg-info">无更多信息显示</p>
+        </div>
+
+        <form th:action="@{/logout}" method="post">
+            <input type="submit" class="btn btn-primary" value="注销"/>
+        </form>
+    </div>
+
+
+
+</div>
+
+
+<!--以下为自己添加的调用摄像头的代码-->
+<!--2019/4/17 21:13添加-->
+<a href="www.blog.csdn.net/lishundi"></a>
+<div>
+    <input type="button" th:title="调用摄像头" value="调用摄像头" onclick="getMedia()" />
+    <video id="video" width="500px" height="500px" autoplay="autoplay"></video>
+    <canvas id="canvas" width="500px" height="500px"></canvas>
+    <button id="snap" onclick="takePhoto()">拍照</button>
+    <script>
+        function getMedia() {
+            var constraints = {
+                video:{width:500, heigh:500}, //使用摄像头对象
+                audio:false //不适用音频
+            };
+            //获得video摄像头区域
+            var video = document.getElementById("video");
+            /**
+             * 这里介绍新的方法，返回一个promise对象
+             * 这个promise对象返回成功后的回调函数带一个mdediastream对象作为其参数
+             * then()是promise对象里的方法
+             * then()方法是异步执行，当then()前的方法执行完后再执行then()内部的程序
+             * 避免数据没有获取到
+             */
+            var promise = navigator.mediaDevices.getUserMedia(constraints);
+            promise.then(function (MediaStream) {
+                video.srcObject = MediaStream;
+                video.play();
+            });
+        }
+
+        //base64转成file形式传输
+        function dataURLtoFile(dataurl, filename) {
+            var arr = dataurl.split(','), mime = arr[0].match(/:(.*?);/)[1],
+                bstr = atob(arr[1]), n = bstr.length, u8arr = new Uint8Array(n);
+            while(n--){
+                u8arr[n] = bstr.charCodeAt(n);
+            }
+            return new File([u8arr], filename, {type:mime});
+        }
+        
+        
+        function takePhoto() {
+            //获得canvas对象
+            var video = document.getElementById("video");
+            var canvas = document.getElementById("canvas");
+            var ctx = canvas.getContext('2d');
+            ctx.drawImage(video, 0, 0, 500, 500);
+
+            //把canvas图像转为img图片
+            var img = new Image();
+
+            //拿到base64地址，图像的地址
+            //img = canvas.toDataURL("image/png");//可以不用写，这是默认格式
+            img = canvas.toDataURL();
+
+            console.log('img-----', img);
+            console.log('ctx-----', ctx)
+
+            //以表单形式数据提交
+            var formData = new FormData();
+            formData.append("file", dataURLtoFile(img, "123.png"));
+            console.log(formData, formData == null);
+            $.ajax({
+                type:'POST',
+                url:'/upload/load_test_pic',
+
+                data:formData,
+                //异步
+                async:true,
+
+                dataType:'json',
+                //mimeType:"multipart/form-data",
+
+                //ajax2.0可以不用设置请求头，但是jq帮我们自动设置了，这样的话需要我们自己取消掉
+                contentType:false,
+                //contentType:"multipart/form-data",
+                //contentType:"application/x-www-form-urlencoded",
+                //取消帮我们格式化数据，是什么就是什么
+                processData:false,
+
+                success:function (data) {
+                    if(data.success){
+                        console.log('上传成功')
+                    }else{
+                        console.log('上传失败')
+                    }
+
+                },
+                error:function (err) {
+                    console.log('网络故障')
+                }
+            });
+            
+        }
+
+
+    </script>
+</div>
+
+<div>
+    <p>多文件上传</p>
+    <form method="POST" enctype="multipart/form-data" action="/upload/load_test_pic">
+        <p>文件：<input type="file" name="file" /></p>
+        <p><input type="submit" value="上传" /></p>
+    </form>
+
+</div>
+
+</body>
+</html>
