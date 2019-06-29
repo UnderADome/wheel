@@ -11,7 +11,7 @@ version = '0.0.1-SNAPSHOT'
 sourceCompatibility = '1.8'
 
 repositories {
-<<<<<<< HEAD
+
 	mavenLocal()//先从本地库查找
 	mavenCentral()
 	//maven {url "https://mvnrepository.com/artifact/org.bytedeco.javacpp-presets/opencv"}
@@ -37,24 +37,7 @@ dependencies {
 //	compile files('libs/javacpp-1.4.4.jar')
 //	compile files('libs/opencv-4.0.1-1.4.4.jar')
 	//compile fileTree(dir:'libs',include:['*.jar'])
-=======
+
     mavenLocal()//先从本地库查找
     mavenCentral()
 }
-
-dependencies {
-    providedRuntime('org.springframework.boot:spring-boot-starter-tomcat')
-    implementation 'org.springframework.boot:spring-boot-starter-aop'
-    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
-    implementation 'org.springframework.boot:spring-boot-starter-security'
-    implementation 'org.springframework.boot:spring-boot-starter-web'
-    runtimeOnly 'org.springframework.boot:spring-boot-devtools'
-    testImplementation 'org.springframework.boot:spring-boot-starter-test'
-    testImplementation 'org.springframework.security:spring-security-test'
->>>>>>> 5158f52c5931817c90ac861c504210a306fb0ae6
-}
-
-
-//dependencies {
-//    testCompile group: 'junit', name: 'junit', version: '4.12'
-//}
