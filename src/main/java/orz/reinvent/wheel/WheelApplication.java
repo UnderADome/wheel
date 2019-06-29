@@ -6,7 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class WheelApplication {
 
-<<<<<<< HEAD
+
 	static {
 		try{
 			//解决重启时产生的dll冲突。
@@ -22,10 +22,6 @@ public class WheelApplication {
 		//System.loadLibrary(Core.NATIVE_LIBRARY_NAME);
 		SpringApplication.run(WheelApplication.class, args);
 	}
-=======
-    public static void main(String[] args) {
-        SpringApplication.run(WheelApplication.class, args);
-    }
->>>>>>> 5158f52c5931817c90ac861c504210a306fb0ae6
+
 
 }

@@ -38,6 +38,4 @@ dependencies {
 //	compile files('libs/opencv-4.0.1-1.4.4.jar')
 	//compile fileTree(dir:'libs',include:['*.jar'])
 
-    mavenLocal()//先从本地库查找
-    mavenCentral()
 }
