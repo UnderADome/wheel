@@ -35,7 +35,7 @@ dependencies {
 	//compile group: 'org.bytedeco.javacpp-presets', name: 'opencv', version: '4.0.1-1.4.4'
 	//compile group: 'org.opencv', name: 'opencv', version: '4.0.0-0'
 //	compile files('libs/javacpp-1.4.4.jar')
-//	compile files('libs/opencv-4.0.1-1.4.4.jar')
+	compile files('libs/opencv-401.jar')
 	//compile fileTree(dir:'libs',include:['*.jar'])
 
 }

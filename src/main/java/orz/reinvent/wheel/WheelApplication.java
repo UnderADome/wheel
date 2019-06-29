@@ -11,7 +11,8 @@ public class WheelApplication {
 		try{
 			//解决重启时产生的dll冲突。
 			//tomcat在重启的时候不是全部重启，会有部分内容保留在tomcat中，dll就是其中之一。
-			System.load("C:/OpenCV/opencv/build/java/x64/opencv_java401.dll");
+			//System.load("C:/OpenCV/opencv/build/java/x64/opencv_java401.dll");
+		    System.load("libs/opencv_java401.dll");
 		}catch (UnsatisfiedLinkError ignore){
 			//忽略此异常
 			//当tomcat中存在dll时，直接忽略该异常，让程序直接执行
