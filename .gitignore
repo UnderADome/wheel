@@ -21,3 +21,15 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+#忽略.idea文件夹及文件夹下文件
+.idea
+#忽略以.iml结尾的文件
+*.iml
+#忽略out文件和out文件
+out
+#忽略.gradle文件夹及文件夹下文件
+.gradle
+#忽略gradle文件夹及文件夹下文件
+gradle
+
