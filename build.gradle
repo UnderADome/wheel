@@ -11,7 +11,10 @@ version = '0.0.1-SNAPSHOT'
 sourceCompatibility = '1.8'
 
 repositories {
-
+	//切换为阿里镜像
+	maven {
+		url 'http://maven.aliyun.com/nexus/content/groups/public/'
+	}
 	mavenLocal()//先从本地库查找
 	mavenCentral()
 	//maven {url "https://mvnrepository.com/artifact/org.bytedeco.javacpp-presets/opencv"}
@@ -34,8 +37,8 @@ dependencies {
 
 	//compile group: 'org.bytedeco.javacpp-presets', name: 'opencv', version: '4.0.1-1.4.4'
 	//compile group: 'org.opencv', name: 'opencv', version: '4.0.0-0'
-//	compile files('libs/javacpp-1.4.4.jar')
+
 	compile files('libs/opencv-401.jar')
-	//compile fileTree(dir:'libs',include:['*.jar'])
+	compile fileTree(dir:'libs',include:['*.jar'])
 
 }
