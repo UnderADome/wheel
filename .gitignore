@@ -11,7 +11,8 @@
 .mtj.tmp/
 
 # Package Files #
-*.jar
+#由于要添加opencv的jar包，所以这里要注掉
+#*.jar
 *.war
 *.nar
 *.ear
