@@ -25,7 +25,7 @@ public class LoginController {
      * @Description
      * 配置登录页信息
      **/
-    @RequestMapping(value = {"/login", "/"})
+    @RequestMapping(value = {"/login"})  //去掉了"/"
     public String LoginHTML(){
 
 

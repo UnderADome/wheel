@@ -34,6 +34,8 @@ dependencies {
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	testImplementation 'org.springframework.security:spring-security-test'
 
+	//分页插件-mybatis的分页插件为pagehelper；jpa自带分页插件
+	//implementation 'pagehelper:com.github.pagehelper'
 
 	//compile group: 'org.bytedeco.javacpp-presets', name: 'opencv', version: '4.0.1-1.4.4'
 	//compile group: 'org.opencv', name: 'opencv', version: '4.0.0-0'

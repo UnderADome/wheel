@@ -57,7 +57,8 @@ public class SpringSecurityConfig extends WebSecurityConfigurerAdapter {
                 .antMatchers("/register/save/*").permitAll()
                 .antMatchers("/upload/load_test_pic").permitAll()
 
-
+                .antMatchers("/", "/about", "/album", "/details", "/index"
+                        , "/leacots", "/test_index", "/whisper").permitAll()
 
                 .antMatchers("/", "/home", "/about", "/img/*", "/login/*").permitAll()//允许所有人访问
                 .antMatchers("/admin/**", "/upload/**").hasAnyRole("ADMIN")//只允许admin访问
